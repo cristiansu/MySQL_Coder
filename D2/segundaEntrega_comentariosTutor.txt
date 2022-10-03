@@ -1,0 +1,65 @@
+Buenas Cristian, como estas?
+
+
+
+Estan Excelente los Der que realizaste!! Super prolijos, con sus PK y FK , relaciones y demas! 
+
+
+
+Consulta: en la tabla Cliente que es RUT? 
+
+
+
+Te comento lo que observe para que lo tengas en cuenta:
+
+
+
+1- sugiero que avances con el proyecto de la Tienda
+
+
+
+2- Estaria bueno relizar una entidad que sea:
+
+
+
+FACTURA: 
+
+-idFactura
+
+-fecha
+
+-idCliente
+
+-idEmpleado
+
+
+
+DETALLE_FACTURA
+
+-idDetalleFactura
+
+-idFactura
+
+-idProducto
+
+-cantidad
+
+-precio
+
+
+
+mas que nada es para evitar la redundancia de datos
+
+
+
+Al margen de las sugerencias, estas haciendo un buen trabajo! A seguir con asi! y Sabes que cualquier duda y/o consulta estoy para ayudarte!
+
+
+
+Te Super Felicito por la entrega! 
+
+Saludos,
+
+
+
+Diego Gimenez.
