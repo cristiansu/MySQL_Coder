@@ -25,7 +25,7 @@ show grants for 'user_solo_lectura'@'localhost';
 grant select on db_tienda.* to 'user_solo_lectura'@'localhost';
 
 
-/* Parte 3: Asignar permisos al usuario user_solo_lectura */
+/* Parte 3: Asignar permisos al usuario user_lect_inserc_modif */
 
 /* verificar los permisos por defecto del usuario user_lect_inserc_modif */
 select * from mysql.user where user='user_lect_inserc_modif';
